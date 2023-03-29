@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.ufcg.psoft.mercadofacil.model.Lote;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
+@Repository
 public class VolatilLoteRepository implements LoteRepository<Lote, Long> {
 	
 	List<Lote> lotes = new ArrayList<>();;
