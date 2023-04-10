@@ -1,0 +1,2 @@
+[engine:junit-jupiter]/[class:com.ufcg.psoft.mercadofacil.service.ProdutoAlterarServiceTest]/[method:alterarNomeDoProduto()]
+[engine:junit-jupiter]/[class:com.ufcg.psoft.mercadofacil.service.ProdutoAlterarServiceTest]/[method:precoMenorIgualAZero()]

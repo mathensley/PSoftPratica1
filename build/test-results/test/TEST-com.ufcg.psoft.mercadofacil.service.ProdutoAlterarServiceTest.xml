@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testes para alteração do Produto" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-04-10T01:54:22" hostname="DESKTOP-68QP40E" time="0.077">
+  <properties/>
+  <testcase name="Alterar nome do produto com dados válidos" classname="com.ufcg.psoft.mercadofacil.service.ProdutoAlterarServiceTest" time="0.062"/>
+  <testcase name="Alterar quando o preço é menor ou igual a zero" classname="com.ufcg.psoft.mercadofacil.service.ProdutoAlterarServiceTest" time="0.009"/>
+  <system-out><![CDATA[22:54:20.204 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [ProdutoAlterarServiceTest]: using SpringBootContextLoader
+22:54:20.213 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.ufcg.psoft.mercadofacil.service.ProdutoAlterarServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:54:20.219 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ufcg.psoft.mercadofacil.service.ProdutoAlterarServiceTest]: ProdutoAlterarServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:54:20.277 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [ProdutoAlterarServiceTest]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+22:54:20.386 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [C:\Users\Laptop\Documents\GitHub\PSoftPratica1-2\build\classes\java\main\com\ufcg\psoft\mercadofacil\MercadofacilApplication.class]
+22:54:20.389 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ufcg.psoft.mercadofacil.MercadofacilApplication for test class com.ufcg.psoft.mercadofacil.service.ProdutoAlterarServiceTest
+22:54:20.528 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+22:54:20.530 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils -- Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+22:54:20.533 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [ProdutoAlterarServiceTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+22:54:20.534 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [ProdutoAlterarServiceTest], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.5)
+
+2023-04-09T22:54:20.870-03:00  INFO 9864 --- [    Test worker] c.u.p.m.s.ProdutoAlterarServiceTest      : Starting ProdutoAlterarServiceTest using Java 17.0.6 with PID 9864 (started by Laptop in C:\Users\Laptop\Documents\GitHub\PSoftPratica1-2)
+2023-04-09T22:54:20.872-03:00  INFO 9864 --- [    Test worker] c.u.p.m.s.ProdutoAlterarServiceTest      : No active profile set, falling back to 1 default profile: "default"
+2023-04-09T22:54:22.703-03:00  INFO 9864 --- [    Test worker] c.u.p.m.s.ProdutoAlterarServiceTest      : Started ProdutoAlterarServiceTest in 2.115 seconds (process running for 3.604)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

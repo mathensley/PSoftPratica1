@@ -11,6 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.ufcg.psoft.mercadofacil.model.Lote;
 import com.ufcg.psoft.mercadofacil.model.Produto;
 
+@SpringBootTest
 class VolatilLoteRepositoryTest {
 	
 	@Autowired
